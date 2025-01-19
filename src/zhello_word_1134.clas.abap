@@ -1,0 +1,21 @@
+CLASS zhello_word_1134 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZHELLO_WORD_1134 IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+  out->write( 'Hello World' ).
+  ENDMETHOD.
+ENDCLASS.
